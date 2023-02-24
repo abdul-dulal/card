@@ -68,25 +68,9 @@ const Card = () => {
                 </div>
               </div>
 
-              <div>
-                <h1
-                  style={{
-                    fontSize: "18px",
-                    fontWeight: "400",
-                  }}
-                >
-                  16.03%
-                </h1>
-                <p
-                  style={{
-                    fontSize: "12px",
-                    fontWeight: "400",
-                    color: "#ff5400",
-                    marginBottom: "5px",
-                  }}
-                >
-                  REMAINING
-                </p>
+              <div className={styles.solid_left}>
+                <h1>16.03%</h1>
+                <p>REMAINING</p>
               </div>
 
               <div className={styles.animated_bg}>
