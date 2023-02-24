@@ -46,7 +46,7 @@
 }
 
 .main {
-  background-color: #272635;
+  background-color: #262425;
   padding: 2px 0;
   color: white;
   display: flex;
@@ -72,7 +72,7 @@
   margin-right: 10px;
 }
 .card_body {
-  background-color: rgb(55 65 81);
+  background-color: #262425;
   padding: 24px 20px 0px 24px;
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
