@@ -134,7 +134,7 @@
   font-size: 16px;
 }
 
-.span1 {
+.solid_text {
   color: #000000;
   font-size: 20px;
   font-weight: 800;
@@ -146,7 +146,7 @@
 }
 
 .animated_bg {
-  background-color: orange;
+  background-color: #ff5400;
   height: 10px;
   width: 100%;
   position: absolute;
@@ -158,6 +158,7 @@
   padding: 4px 0;
   position: relative;
   width: 80%;
+  height: 100%;
   --tw-bg-opacity: 1;
   background-color: rgba(0, 208, 173, var(--tw-bg-opacity));
 }
@@ -282,4 +283,19 @@
   font-size: 14px;
   border: none;
   color: rgb(209 213 219);
+}
+
+@media screen and (max-width: 540px) {
+  .fast {
+    font-size: 18px;
+  }
+  .token {
+    font-size: 18px;
+  }
+  .stage h1 {
+    font-size: 18px;
+  }
+  .money h1 {
+    font-size: 18px;
+  }
 }

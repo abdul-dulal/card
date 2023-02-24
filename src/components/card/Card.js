@@ -62,8 +62,8 @@ const Card = () => {
                   ></path>
                 </svg>
                 <div>
-                  <span className={styles.span1}>
-                    84.13% <span>SOLD</span>
+                  <span className={styles.solid_text}>
+                    84.13% <span style={{ color: "#00D0AD" }}>SOLD</span>
                   </span>
                 </div>
               </div>
